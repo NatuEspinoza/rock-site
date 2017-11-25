@@ -10,6 +10,9 @@ Resetear el navegador
 }
 
 /* Estilos de menu de navegación global del site */
+.background-black{
+  background: #000;
+}
 .header {
   height: 50px;
   background: #63605D;
@@ -37,3 +40,26 @@ Resetear el navegador
   font-weight: lighter;
   margin-left: 30px;
 }
+
+/* Estilos de la imágen del encabezado */
+.img-header{
+  background-image: url(../img/header.jpg);
+  opacity: 0.5;
+  background-size:cover;
+  color: #FFF;
+  text-align: center;
+}
+
+.img-header h2{
+  font-weight: lighter;
+  font-size: 100px;
+  padding-top: 300px;
+}
+
+.img-header h3{
+  font-weight: lighter;
+  font-size: 50px;
+  padding-bottom: 200px;
+}
+
+/*Estilos sección 1*/}
