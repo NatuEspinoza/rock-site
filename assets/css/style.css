@@ -1,0 +1,39 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos de menu de navegación global del site */
+.header {
+  height: 50px;
+  background: #63605D;
+  color: #FFF;
+  padding: 15px 150px 0 150px;
+}
+
+.header h1{
+  font-size: 20px;
+  font-weight:normal;
+  display: inline-block;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+}
+
+.menu p:first-child {
+  font-weight: bold;
+}
+.menu p{
+  float: left;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 30px;
+}
