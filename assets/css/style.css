@@ -1,5 +1,5 @@
 /*
-Resetear el navegador
+Resetear el navegador y estilos generales
 */
 
 * {
@@ -9,11 +9,22 @@ Resetear el navegador
   font-family: 'Roboto', sans-serif;
 }
 
+h2{
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 /* Estilos de menu de navegación global del site */
 .background-black{
   background: #000;
 }
 .header {
+  width: 100%;
   height: 50px;
   background: #63605D;
   color: #FFF;
@@ -62,4 +73,46 @@ Resetear el navegador
   padding-bottom: 200px;
 }
 
-/*Estilos sección 1*/}
+/*Estilos sección 1*/
+
+.box-text {
+  width: 650px;
+  height: auto;
+  padding: 150px 0 0 180px;
+  color: #24282C;
+}
+
+.img {
+  width: 450px;
+  height: auto;
+  border-radius: 300px;
+  margin: 40px 10px 0 0;
+}
+
+/*Estilos sección 2*/
+.img2 {
+  width: 450px;
+  height: auto;
+  border-radius: 300px;
+  margin: 40px 0 0 180px;
+}
+.box-text2 {
+  width: 650px;
+  height: auto;
+  padding: 150px 0 0 220px;
+  color: #24282C;
+}
+
+/* Pié de página */
+.footer{
+  height: 150px;
+  background: #63605D;
+  color: #FFF;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer h4{
+  padding-top: 70px;
+  font-weight:lighter;
+}
