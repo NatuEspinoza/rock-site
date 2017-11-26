@@ -9,7 +9,7 @@ Resetear el navegador y estilos generales
   font-family: 'Roboto', sans-serif;
 }
 
-h2{
+h2 {
   font-size: 60px;
   font-weight: lighter;
 }
@@ -20,9 +20,11 @@ p {
 }
 
 /* Estilos de menu de navegación global del site */
-.background-black{
+
+.background-black {
   background: #000;
 }
+
 .header {
   width: 100%;
   height: 50px;
@@ -31,9 +33,9 @@ p {
   padding: 15px 150px 0 150px;
 }
 
-.header h1{
+.header h1 {
   font-size: 20px;
-  font-weight:normal;
+  font-weight: normal;
   display: inline-block;
 }
 
@@ -49,7 +51,8 @@ p {
 .menu p:first-child {
   font-weight: bold;
 }
-.menu p{
+
+.menu p {
   float: left;
   font-size: 15px;
   font-weight: lighter;
@@ -57,21 +60,22 @@ p {
 }
 
 /* Estilos de la imágen del encabezado */
-.img-header{
+
+.img-header {
   background-image: url(../img/header.jpg);
   opacity: 0.5;
-  background-size:cover;
+  background-size: cover;
   color: #FFF;
   text-align: center;
 }
 
-.img-header h2{
+.img-header h2 {
   font-weight: lighter;
   font-size: 100px;
   padding-top: 300px;
 }
 
-.img-header h3{
+.img-header h3 {
   font-weight: lighter;
   font-size: 50px;
   padding-bottom: 200px;
@@ -94,12 +98,14 @@ p {
 }
 
 /*Estilos sección 2*/
+
 .img2 {
   width: 450px;
   height: auto;
   border-radius: 300px;
   margin: 40px 0 0 180px;
 }
+
 .box-text2 {
   width: 650px;
   height: auto;
@@ -108,7 +114,8 @@ p {
 }
 
 /* Pié de página */
-.footer{
+
+.footer {
   height: 150px;
   background: #63605D;
   color: #FFF;
@@ -116,15 +123,16 @@ p {
   margin-top: 40px;
 }
 
-.footer h4{
+.footer h4 {
   padding-top: 70px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 /*Agregando estilo responsive*/
+
 /*Para dispositivo Galaxy S5*/
 
-@media (min-device-width: 360px) and (max-device-height: 640px){
+@media (min-device-width: 360px) and (max-device-height: 640px) {
   .header {
     width: 100%;
     height: 60px;
@@ -132,9 +140,9 @@ p {
     color: #FFF;
     padding: 20px 30px 0 30px;
   }
-  .header h1{
+  .header h1 {
     font-size: 20px;
-    font-weight:normal;
+    font-weight: normal;
     display: inline-block;
   }
   .menu-movil {
@@ -144,16 +152,16 @@ p {
   .menu {
     display: none;
   }
-  .img-header{
+  .img-header {
     height: 600px;
     background-image: url(../img/header.jpg);
     opacity: 0.8;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
     color: #FFF;
     text-align: center;
   }
-  .img-header h2{
+  .img-header h2 {
     font-weight: lighter;
     font-size: 90px;
     padding-top: 100px;
@@ -188,7 +196,79 @@ p {
     color: #24282C;
     float: right;
   }
-  .footer h4{
+  .footer h4 {
+    padding-top: 30px;
+  }
+}
+
+/* Estilos para Moto G4 */
+
+@media (min-device-width: 424px) and (max-device-height: 753px) {
+  .header {
+    width: 100%;
+    height: 60px;
+    background: #63605D;
+    color: #FFF;
+    padding: 20px 30px 0 30px;
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+  }
+  .menu-movil {
+    float: right;
+    display: inline-block;
+  }
+  .menu {
+    display: none;
+  }
+  .img-header {
+    height: 600px;
+    background-image: url(../img/header.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    text-align: center;
+  }
+  .img-header h2 {
+    font-weight: lighter;
+    font-size: 90px;
+    padding-top: 100px;
+  }
+  .box-text {
+    width: 340px;
+    height: auto;
+    padding: 70px 0 0 90px;
+    color: #24282C;
+    float: left;
+  }
+  .img {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 550px 90px 0 0;
+    float: right;
+  }
+  .img2 {
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+    margin: 150px 0 0 90px;
+    float: left;
+  }
+  .box-text2 {
+    width: 330px;
+    height: auto;
+    padding: 50px 70px 0 0;
+    margin-right: 5px;
+    margin-top: 450px;
+    margin-bottom: 150px;
+    color: #24282C;
+    float: right;
+  }
+  .footer h4 {
     padding-top: 30px;
   }
 }
